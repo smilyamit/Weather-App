@@ -4,7 +4,7 @@ document.getElementById('myBtn').onclick = () => {
   let city = document.getElementById('myInput').value;
  
 
-  fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=a7081c3ea07c98dec8b6748366a1e415`
+  fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=a7081c3ea07c98dec8b6748366a1e415`
   ).then(data1 => data1.json()
   ).then(data2 => {
   
