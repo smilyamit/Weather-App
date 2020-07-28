@@ -15,12 +15,12 @@ document.getElementById('myBtn').onclick = () => {
 
   document.getElementById('info').innerHTML = `
       <ul>
-          <li>Country:${data2.sys.country}</li>
-          <li>City:${data2.name}</li>
-          <li>Humidity:${data2.main.humidity}%</li>
-          <li>Temp:${data2.main.temp}</li>
-          <li>Wind:${data2.wind.speed}km/h</li>
-          <li>Description:${data2.weather[0].description}</li>
+          <li>Country: ${data2.sys.country}</li>
+          <li>City: ${data2.name}</li>
+          <li>Humidity: ${data2.main.humidity}%</li>
+          <li>Temp: ${data2.main.temp}°C</li>
+          <li>Wind: ${data2.wind.speed}km/h</li>
+          <li>Description: ${data2.weather[0].description}</li>
       </ul>
   
   `
