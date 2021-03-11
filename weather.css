@@ -23,6 +23,13 @@ section {
   color:rgb(0, 0, 200);
 }
 
+#head1 {
+  position: absolute;
+  transform: translate(0, -15rem);
+  font-family: cursive, sans-serif;
+  color:rgb(0, 0, 200);
+}
+
 #myBtn {
   border: none;
   outline: none;
