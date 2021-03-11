@@ -25,7 +25,7 @@ section {
 
 #head1 {
   position: absolute;
-  transform: translate(0, -15rem);
+  transform: translate(0, -10rem);
   font-family: cursive, sans-serif;
   color:rgb(0, 0, 200);
 }
